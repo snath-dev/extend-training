@@ -10,13 +10,7 @@
           "control_1": {
             "type": "button",
             "controlId": "dd59707e-5b60-4de3-8934-d5f4570bfefd",
-            "accessRoles": [
-              "Administrator",
-              "Xactly",
-              "Sales Representative",
-              "Sales Manager",
-              "Executive"
-            ],
+            "accessRoles": null,
             "privileges": null,
             "styles": {
               "useComponentShadow": true,
@@ -36,26 +30,6 @@
                 "handlerArgs": [],
                 "preHandlers": [],
                 "preHandlerArgs": []
-              },
-              {
-                "name": "$onComponentSeen",
-                "eventSelection": "BIND_EVENT",
-                "broadcastArgs": {
-                  "validationXsql": ""
-                },
-                "id": "dd59707e-5b60-4de3-8934-d5f4570bfefd",
-                "handlers": [
-                  "hide"
-                ],
-                "handlerArgs": [
-                  {}
-                ],
-                "preHandlers": [
-                  "show"
-                ],
-                "preHandlerArgs": [
-                  {}
-                ]
               }
             ],
             "controlData": "Button",

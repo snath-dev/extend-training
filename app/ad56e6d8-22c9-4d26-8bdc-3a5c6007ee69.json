@@ -6,7 +6,66 @@
     "controlSchema": {
       "schema": {
         "type": "object",
-        "properties": {}
+        "properties": {
+          "control_1": {
+            "type": "button",
+            "controlId": "dd59707e-5b60-4de3-8934-d5f4570bfefd",
+            "accessRoles": [
+              "Administrator",
+              "Xactly",
+              "Sales Representative",
+              "Sales Manager",
+              "Executive"
+            ],
+            "privileges": null,
+            "styles": {
+              "useComponentShadow": true,
+              "useGreyBackground": true,
+              "useInnerGreyBackground": false
+            },
+            "events": [
+              {
+                "name": "$onPageLoad",
+                "eventSelection": "CREATE_EVENT",
+                "broadcastArgs": {
+                  "validationXsql": "",
+                  "validationLogic": []
+                },
+                "id": "dd59707e-5b60-4de3-8934-d5f4570bfefd",
+                "handlers": [],
+                "handlerArgs": [],
+                "preHandlers": [],
+                "preHandlerArgs": []
+              },
+              {
+                "name": "$onComponentSeen",
+                "eventSelection": "BIND_EVENT",
+                "broadcastArgs": {
+                  "validationXsql": ""
+                },
+                "id": "dd59707e-5b60-4de3-8934-d5f4570bfefd",
+                "handlers": [
+                  "hide"
+                ],
+                "handlerArgs": [
+                  {}
+                ],
+                "preHandlers": [
+                  "show"
+                ],
+                "preHandlerArgs": [
+                  {}
+                ]
+              }
+            ],
+            "controlData": "Button",
+            "layoutSize": null,
+            "buttonColorType": "primary",
+            "icon": "",
+            "iconPosition": "left",
+            "shouldRenderHidden": false
+          }
+        }
       }
     }
   },

@@ -1,0 +1,8 @@
+{
+  "application" : "app/Application.json",
+  "queries" : null,
+  "workflows" : null,
+  "pageDefinitions" : [ ],
+  "policySets" : null,
+  "tables" : null
+}

@@ -1,0 +1,48 @@
+{
+  "description": null,
+  "pageDefinitionId": "ad56e6d8-22c9-4d26-8bdc-3a5c6007ee69",
+  "pageSchema": {
+    "properties": {},
+    "controlSchema": {
+      "schema": {
+        "type": "object",
+        "properties": {
+          "control_1": {
+            "type": "button",
+            "controlId": "dd59707e-5b60-4de3-8934-d5f4570bfefd",
+            "accessRoles": null,
+            "privileges": null,
+            "styles": {
+              "useComponentShadow": true,
+              "useGreyBackground": true,
+              "useInnerGreyBackground": false
+            },
+            "events": [
+              {
+                "name": "$onPageLoad",
+                "eventSelection": "CREATE_EVENT",
+                "broadcastArgs": {
+                  "validationXsql": "",
+                  "validationLogic": []
+                },
+                "id": "dd59707e-5b60-4de3-8934-d5f4570bfefd",
+                "handlers": [],
+                "handlerArgs": [],
+                "preHandlers": [],
+                "preHandlerArgs": []
+              }
+            ],
+            "controlData": "Button",
+            "layoutSize": null,
+            "buttonColorType": "primary",
+            "icon": "",
+            "iconPosition": "left",
+            "shouldRenderHidden": false
+          }
+        }
+      }
+    }
+  },
+  "title": "page1",
+  "versionName": "1.0"
+}

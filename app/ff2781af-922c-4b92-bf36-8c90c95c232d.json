@@ -6,7 +6,27 @@
     "controlSchema": {
       "schema": {
         "type": "object",
-        "properties": {}
+        "properties": {
+          "control_1": {
+            "type": "label",
+            "controlId": "28959783-4e6c-43e5-8f7a-042c57d6d895",
+            "accessRoles": null,
+            "privileges": null,
+            "styles": {
+              "useComponentShadow": true,
+              "useGreyBackground": true,
+              "useInnerGreyBackground": false
+            },
+            "events": [],
+            "controlData": "<p>Sample Text</p>",
+            "layoutSize": null,
+            "intl": false,
+            "helpIconPosition": "alignLeft",
+            "helpIconTooltipPosiiton": "right",
+            "helpIconValue": null,
+            "shouldRenderHidden": false
+          }
+        }
       }
     }
   },

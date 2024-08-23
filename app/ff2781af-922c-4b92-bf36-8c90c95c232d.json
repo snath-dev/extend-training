@@ -54,9 +54,65 @@
             "data": "",
             "column": "",
             "layoutSize": null,
-            "helpIconValue": null,
-            "helpIconPosition": "alignLeft",
+            "helpIconValue": "<p>Help?</p>",
+            "helpIconPosition": "alignRight",
             "helpIconTooltipPosiiton": "right",
+            "shouldRenderHidden": false,
+            "helpIconTooltipPosition": "top"
+          },
+          "control_3": {
+            "type": "input",
+            "controlId": "3e020e57-0f54-493f-a73f-fa85cf516fa5",
+            "accessRoles": null,
+            "privileges": null,
+            "styles": {
+              "useComponentShadow": false,
+              "useGreyBackground": false,
+              "useInnerGreyBackground": false
+            },
+            "events": [
+              {
+                "name": "$onModalOpen",
+                "eventSelection": "BIND_EVENT",
+                "broadcastArgs": {
+                  "validationXsql": ""
+                },
+                "id": "3e020e57-0f54-493f-a73f-fa85cf516fa5",
+                "handlers": [
+                  "refresh"
+                ],
+                "handlerArgs": [
+                  {}
+                ],
+                "preHandlers": [],
+                "preHandlerArgs": []
+              }
+            ],
+            "variables": [],
+            "labelText": "",
+            "labelValue": "",
+            "isMultiLine": false,
+            "isDisabled": false,
+            "layoutSize": null,
+            "useEnterBroadcast": false,
+            "shouldRenderHidden": false
+          },
+          "control_4": {
+            "type": "button",
+            "controlId": "42335d4f-4aa6-402c-84bb-2b91420356db",
+            "accessRoles": null,
+            "privileges": null,
+            "styles": {
+              "useComponentShadow": false,
+              "useGreyBackground": false,
+              "useInnerGreyBackground": false
+            },
+            "events": [],
+            "controlData": "Extend",
+            "layoutSize": null,
+            "buttonColorType": "primary",
+            "icon": "",
+            "iconPosition": "left",
             "shouldRenderHidden": false
           },
           "control_1": {

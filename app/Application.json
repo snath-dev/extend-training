@@ -1,0 +1,11 @@
+{
+  "applicationId" : "9240e52e-60bd-432b-9d97-6f157e66c33c",
+  "applicationName" : "hyh",
+  "icon" : "LogoIconOnlyBenchmarkingComponent",
+  "sections" : [ ],
+  "accessRoles" : [ ],
+  "applicationState" : "DRAFT",
+  "gitUrl" : "https://github.com/snath-dev/extend-training",
+  "defaultBranch" : "main",
+  "applicationI18nFiles" : [ ]
+}

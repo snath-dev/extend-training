@@ -1,34 +1,37 @@
-{
-  "accessRoles": [],
-  "applicationId": "9240e52e-60bd-432b-9d97-6f157e66c33c",
-  "applicationName": "Extend Training",
-  "applicationState": "DRAFT",
-  "defaultBranch": "main",
-  "gitSubpath": "",
-  "gitUrl": "https://github.com/snath-dev/extend-training",
-  "icon": "LogoIconOnlyExpressComponent",
-  "sections": [
-    {
-      "name": "section1",
-      "icon": "Camera",
-      "pageDefinitionId": "ad56e6d8-22c9-4d26-8bdc-3a5c6007ee69",
-      "sections": [],
-      "accessRoles": [
-        "Administrator",
-        "Xactly",
-        "Sales Representative",
-        "Sales Manager",
-        "Executive"
-      ],
-      "privileges": null
-    },
-    {
-      "accessRoles": null,
-      "privileges": null,
-      "name": "section 2",
-      "icon": "Alert Circle",
-      "pageDefinitionId": "ff2781af-922c-4b92-bf36-8c90c95c232d",
-      "sections": []
-    }
-  ]
-}
+[
+  {
+    "accessRoles": [],
+    "applicationId": "9240e52e-60bd-432b-9d97-6f157e66c33c",
+    "applicationName": "Extend Training",
+    "applicationState": "PUBLISHED",
+    "defaultBranch": "main",
+    "gitSubpath": null,
+    "gitUrl": "https://github.com/snath-dev/extend-training",
+    "icon": "LogoIconOnlyExpressComponent",
+    "mainBranch": null,
+    "sections": [
+      {
+        "name": "section1",
+        "icon": "Camera",
+        "pageDefinitionId": "ad56e6d8-22c9-4d26-8bdc-3a5c6007ee69",
+        "sections": [],
+        "accessRoles": [
+          "Administrator",
+          "Xactly",
+          "Sales Representative",
+          "Sales Manager",
+          "Executive"
+        ],
+        "privileges": null
+      },
+      {
+        "accessRoles": null,
+        "privileges": null,
+        "name": "section 2",
+        "icon": "Alert Circle",
+        "pageDefinitionId": "ff2781af-922c-4b92-bf36-8c90c95c232d",
+        "sections": []
+      }
+    ]
+  }
+]

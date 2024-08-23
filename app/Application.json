@@ -7,5 +7,20 @@
   "gitSubpath": "",
   "gitUrl": "https://github.com/snath-dev/extend-training",
   "icon": "LogoIconOnlyExpressComponent",
-  "sections": []
+  "sections": [
+    {
+      "accessRoles": [
+        "Administrator",
+        "Xactly",
+        "Sales Representative",
+        "Sales Manager",
+        "Executive"
+      ],
+      "privileges": null,
+      "name": "section1",
+      "icon": "Camera",
+      "pageDefinitionId": "ad56e6d8-22c9-4d26-8bdc-3a5c6007ee69",
+      "sections": []
+    }
+  ]
 }
